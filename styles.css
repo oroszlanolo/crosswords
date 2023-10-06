@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    width: min(90dvw, 90dvh);
+}
+
+.cell {
+    border: 1px solid red;
+    aspect-ratio: 1;
+    color: beige;
+    font-size: 2rem;
+    text-align: center;
+}
